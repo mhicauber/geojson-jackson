@@ -20,6 +20,8 @@ public abstract class GeoJsonObject implements Serializable {
 	private Crs crs;
 	private double[] bbox;
 
+	public GeoJsonObject() {};
+	
 	public Crs getCrs() {
 		return crs;
 	}
